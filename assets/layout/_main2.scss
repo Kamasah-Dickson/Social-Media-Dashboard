@@ -1,0 +1,14 @@
+body{
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    background-color:var(--bg);
+}
+
+
+html.transition,
+html.transition *,
+html.transition *::before,
+html.transition *::after{
+    transition: all 450ms linear !important;
+    transition-delay:0 !important;
+}

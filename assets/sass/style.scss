@@ -1,0 +1,31 @@
+@import '../mixins/colors';
+@import '../mixins/mixins.scss';
+@import '../layout/main';
+@import '../layout/main2';
+
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+
+*::before, *::after{
+    padding:0;
+    box-sizing: border-box;
+    margin:0;
+}
+
+
+
+
+
+
+
